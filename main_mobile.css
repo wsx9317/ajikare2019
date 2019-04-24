@@ -75,7 +75,7 @@
     #bit_left, #bit_mid, #bit_right{width: 30.5vw; height: 31.5vh; margin-right: 1px; float: left;}
     #b_box{width: 92vw; height: 20vh; float: left; background-color: #1b3ed5; opacity: 0.6; position: relative; margin-top: 1px; display: inline-block;}
     #b_box div{display: inline-block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
-    #b_box p{text-decoration: none; color:#ffffff;}
+    #b_box p{text-decoration: none; color:#ffffff; width: 100%;}
     #b_box_b{font-size: 30px;}
     .b_box_s{font-size: 18px;}
 
