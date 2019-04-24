@@ -1,0 +1,92 @@
+@media screen and (max-width:639px) {
+
+  .section{background-color: inherit; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; margin-top: 5.5vh}
+  #section1{
+    background-image: url(img/main_mobile1.jpg);
+    height: 100vh;
+
+  }
+  #section2{
+    background-image: url(img/main_mobile2.jpg);
+    height: 100vh;
+  }
+  #map{
+    background-image: url(img/map_mobile.png);
+    height: 90vh;
+  }
+  #header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 5.5vh;
+    z-index: 1;
+    background-color: #003366;
+    position: relative;
+
+  }
+  #logo_mobil {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 100; height: 80%;}
+  #logo{display: none}
+  #home{position: absolute; top: 50%; left:3.2%; transform: translateY(-50%); opacity: 0.8; z-index: 100;}
+  #ham{position: absolute; top: 50%; right:3.2%; transform: translateY(-50%); opacity: 0.8; cursor: pointer; z-index: 100;}
+  #bg_c{
+    width: 100%;
+    height: 68px;
+
+    }
+    #menu{
+      position: fixed;
+      background-color: #2555b7;
+      top: 68px;
+      right: -45%;
+      font-size: 0;
+      width: 45%;
+      height: 100vh;
+    }
+    #menu ul{
+      text-align: center;
+    }
+    #menu ul li{list-style: none; display: inline-block;}
+    #menu ul li a{width: 150px; line-height: 43px; display: block; color: white; font-size: 20px; font-weight: bold; text-decoration: none; opacity: 1;}
+    #menu ul ul{
+      position: absolute;
+      display: none;
+    }
+    #menu ul ul li{
+      display: block;
+      background-color: #4c8bd8;
+      opacity: 0.65;
+    }
+    #menu ul ul li a{
+      color:#2b2b2b;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    #menu ul ul li a:hover{
+      background-color: #206aad;
+      opacity: 0.7;
+      color: #ffffff;
+    }
+    #allbit{width: 100vw; height: 52vh; position: fixed; bottom: 3.7vh; }
+    #bit{width: 92.8%; height: 52vh; margin: 0 auto;}
+    .s_box{width: 30.5vw; height: 15.7vh; background-color: #006cff; opacity: 0.65;text-align: center; position: relative;}
+    .s_box p{width: 100%; font-size: 17px; font-weight: bold; text-decoration: none; color:#ffffff; position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+    .up {margin-bottom: 1px;}
+    #sboxes{width: 92vw; height: 31.5vh; display: block;}
+    #bit_left, #bit_mid, #bit_right{width: 30.5vw; height: 31.5vh; margin-right: 1px; float: left;}
+    #b_box{width: 92vw; height: 20vh; float: left; background-color: #1b3ed5; opacity: 0.6; position: relative; margin-top: 1px; display: inline-block;}
+    #b_box div{display: inline-block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+    #b_box p{text-decoration: none; color:#ffffff;}
+    #b_box_b{font-size: 30px;}
+    .b_box_s{font-size: 18px;}
+
+    #ban{ float: right; margin-top: 1.5%; margin-right: 151px; width: 788px; height: 45px; overflow: hidden; font-size: 0; display: inline-block;}
+    #slidebox{bottom: 29px; width: 100%; height: 60px; margin: 0 auto; overflow: hidden; }
+    .slide li{list-style: none; float: left;}
+    .slide li img{width: 100%}
+    /* #viewport img{height: 50px; float: left; margin: 5px 20px 5px 20px;} */
+
+    #footer{width: 100%; height: 10vh; background-color: #1d2124; }
+    #footer_left {margin-left: 159px; margin-top: 21px; display: inline-block;}
+    #footer_left p{color: #ffffff; font-size: 10px;}
+
+}
