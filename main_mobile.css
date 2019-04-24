@@ -74,9 +74,9 @@
     #sboxes{width: 92vw; height: 31.5vh; display: block;}
     #bit_left, #bit_mid, #bit_right{width: 30.5vw; height: 31.5vh; margin-right: 1px; float: left;}
     #b_box{width: 92vw; height: 20vh; float: left; background-color: #1b3ed5; opacity: 0.6; position: relative; margin-top: 1px; display: inline-block;}
-    #b_box div{display: inline-block;  position: absolute; top: 50%;transform: translateY(-50%); width: 100%; text-align: center;}
+    #b_box div{display: inline-block; position: absolute; top: 50%;transform: translateY(-50%); width: 100%; text-align: center;}
     #b_box p{text-decoration: none; color:#ffffff; width: 100%;}
-    #b_box_b{font-size: 30px;}
+    #b_box_b{font-size: 30px; }
     .b_box_s{font-size: 18px;}
 
     #ban{ float: right; margin-top: 1.5%; margin-right: 151px; width: 788px; height: 45px; overflow: hidden; font-size: 0; display: inline-block;}
